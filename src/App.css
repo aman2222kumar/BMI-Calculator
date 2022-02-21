@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: bor;
+}
+.container {
+  display: grid;
+  gap: 10px;
+  border: 15px solid #456;
+  border-radius: 10px;
+  inline-size: 25rem;
+  block-size: 20rem;
+  padding: 1rem;
+  background-color: yellowgreen;
+}
+.resultContainer {
+  background-color: #343456;
+  height: 25vh;
+  border-radius: 5px;
+}
+li {
+  list-style-type: none;
+  color: white;
+  font-weight: bolder;
+}
+#child {
+  display: flex;
+  gap: 20px;
+}
+#child1 {
+  border-bottom: 3px solid green;
+}
+#child2 {
+  border-bottom: 3px solid orange;
+}
+#child3 {
+  border-bottom: 3px solid pink;
+}
+input {
+  float: right;
+  border: 3px solid lightcyan;
+}
+.resultText {
+  text-align: center;
+  font-weight: 2rem;
+  text-transform: capitalize;
+}
+button {
+  border-radius: 0.5rem;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+
+
