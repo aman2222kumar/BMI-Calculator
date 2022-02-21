@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  box-sizing: bor;
+  box-sizing:border-box;
 }
 .container {
   display: grid;
@@ -22,7 +22,7 @@ body {
 }
 .resultContainer {
   background-color: #343456;
-  height: 25vh;
+  
   border-radius: 5px;
 }
 li {
